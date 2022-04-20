@@ -10,7 +10,10 @@ public class Question3
      * Hint: in.nextInt() to read integer
      */
      
-    Scanner in = new Scanner(System.in);
-    
+    Scanner inputint = new Scanner(System.in);
+    System.out.println("Enter Integer");
+    int input = inputint.nextInt();
+    int result = Math.sqrt(input);
+    System.out.printIn("Result: " + result);
   }
 }
