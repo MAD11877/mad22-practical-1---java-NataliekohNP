@@ -13,7 +13,7 @@ public class Question3
     Scanner inputint = new Scanner(System.in);
     System.out.println("Enter Integer");
     int input = inputint.nextInt();
-    int result = Math.sqrt(input);
-    System.out.printIn("Result: " + result);
+    int result = input*input;
+    System.out.println("Result: " + result);
   }
 }
